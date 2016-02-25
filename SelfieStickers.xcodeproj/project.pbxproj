@@ -13,6 +13,7 @@
 		4CC054641C513D49007ECB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC054621C513D49007ECB7B /* Main.storyboard */; };
 		4CC054661C513D49007ECB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CC054651C513D49007ECB7B /* Assets.xcassets */; };
 		4CC054691C513D49007ECB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC054671C513D49007ECB7B /* LaunchScreen.storyboard */; };
+		4CC054721C514034007ECB7B /* Sticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC054711C514034007ECB7B /* Sticker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4CC054651C513D49007ECB7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CC054681C513D49007ECB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CC0546A1C513D49007ECB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CC054701C514034007ECB7B /* Sticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sticker.h; sourceTree = "<group>"; };
+		4CC054711C514034007ECB7B /* Sticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sticker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				4CC054601C513D49007ECB7B /* ViewController.m */,
 				4CC054621C513D49007ECB7B /* Main.storyboard */,
 				4CC054651C513D49007ECB7B /* Assets.xcassets */,
+				4CC054701C514034007ECB7B /* Sticker.h */,
+				4CC054711C514034007ECB7B /* Sticker.m */,
 				4CC054671C513D49007ECB7B /* LaunchScreen.storyboard */,
 				4CC0546A1C513D49007ECB7B /* Info.plist */,
 				4CC054591C513D49007ECB7B /* Supporting Files */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CC054611C513D49007ECB7B /* ViewController.m in Sources */,
+				4CC054721C514034007ECB7B /* Sticker.m in Sources */,
 				4CC0545E1C513D49007ECB7B /* AppDelegate.m in Sources */,
 				4CC0545B1C513D49007ECB7B /* main.m in Sources */,
 			);
